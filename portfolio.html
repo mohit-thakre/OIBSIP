@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>portfolio</title>
+<style type="text/css">
+ 
+	header{
+		width:100%;
+	       height:100vh;
+	       background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("pngtree-abstract-memphis-playful-portfolio-pink-image_593418.jpg" );
+	       background-size: cover;
+	   }
+	nav{
+		width: 100%;
+	    height: 100px;
+	    color:white;
+	    display:flex;
+	    justify-content:space-around;
+	    align-items:center;
+	    font-family:sans-serif; }
+
+
+
+	    .logo{
+	     font-size:2em ;
+	    	   letter-spacing: 2px;
+	    	   border-bottom: 4px solid darkred;
+	    	     }
+      .logo1{
+	      
+	    	   letter-spacing: 2px;
+	    	     color:darkred; }
+
+	    .menu a{  color:white;
+	    	 
+	            padding: 10px 20px;
+	            font-size: 20px;
+	            position: relative;}
+
+        .menu a:before{
+        	content:'';
+        	position: absolute;
+        	top: 0px;
+        	left: 0px;
+        	width: 0%;
+        	height: 100%;
+          	border-bottom: 2px solid red;
+			       transition: 0.4s linear; }
+ 
+        .menu a:hover{
+        	width: 100%;
+          color: yellow;
+          border-bottom: 2px solid yellow;
+        }
+        	 
+        	 
+	    .h-txt{ padding-top: 130px;
+	    	   max-width: 650px;
+	           /*position: absolute;*/
+	           /*top:50%;
+	           left: 50%;*/
+	           /*transform: translate(-50%,-50%);*/
+	           text-align: center;
+	           color: white;}
+
+
+	    .h-txt span {letter-spacing: 5px;
+		    	 }
+	    .h-txt h3{font-size: 2.5em;
+                  }
+        .h-txt h2{font-size: 3.5em;
+                  } 
+        .fontt{ color:darkred; }   
+        .font{ color:darkred; }   
+        .h-txt a{
+        	background-color: indianred;
+        	border-radius: 1px;
+        	color: white;
+        	padding: 10px;
+        	border-radius: 15px;
+        	letter-spacing: 3px;
+        	 
+        }   
+        .h-txt a:hover{
+        	background: transparent;
+        	transition: 0.9s;
+        	border: 2px solid darkred;
+        	 
+        }
+        .intro{letter-spacing: 3px;
+        	padding-bottom: 2px;
+                }
+        .my{
+        	color:yellow;
+        }
+        
+</style>
+</head>
+<body>
+	<header>
+		 <nav>
+			<div class="logo">
+				 PORT<span class="logo1">FOLIO</span>
+		</div>  <div class="menu">
+				<a href="#">home</a>
+				<a href="#">booking</a>
+				<a href="#">best offer</a>
+				<a href="#">service</a>
+				<a href="#">contact us</a>
+			</div>
+		 
+			 
+		</nav>
+		<section class="h-txt">
+			<div class="intro"><span class="my">MY</span> name is</div>
+			<h3 style="color: yellow;"> MOHIT THAKRE</h3>
+			<h3><span class="fontt">FULLSTACK<br></span>WEB DEVELOPER<br> <span class="font">&</span>DESIGNER</h3>
+			<br>
+			 <a href="#">SUBSCRIBE</a>
+ 
+		</section>
+	</header>
+	 
+</body>
+
+
+</html>
